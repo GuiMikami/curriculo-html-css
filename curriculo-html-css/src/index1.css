@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding-bottom: 20px;
 }
 
 .header {
@@ -15,12 +15,12 @@ body {
     max-width: 100px;
     height: auto;
     border-radius: 20px;
-    margin-left: 400px;    
+    margin-left: 200px;    
 }
 
 .left h1 {
     margin-top: 10px;
-    margin-left: 400px;
+    margin-left: 200px;
 }
 
 .right ul {
@@ -31,18 +31,13 @@ body {
 
 
 .content {
-    
     display: flex;
-    margin-left: 400px;
+    margin-left: 200px;
 }
 
-.conhecimentos{
-    margin-left: 20px;
-}
 
 .formacao{
-    
-    margin-left: 400px;
+    margin-left: 200px;
 }
 
 .idiomas{
@@ -57,4 +52,26 @@ hr {
     margin: 20px 0;
     border: none;
     border-top: 1px solid #ccc;
+}
+
+table,td{
+    border: 1px solid black;
+    width: 400px;
+    padding: 2px;
+    border-collapse: collapse;
+}
+
+
+.idiomas{    
+    margin-left: 200px;
+}
+
+h2{
+    background-color: rgba(88, 88, 255, 0.455);
+    width: 300px;
+}
+
+hr{
+    margin-left: 50px;
+    width: 80%;
 }
